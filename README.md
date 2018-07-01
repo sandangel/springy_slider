@@ -1,8 +1,5 @@
 # springy_slider
 
-A new Flutter project.
+Advance Flutter practice with UI design challenge.
 
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+![UI Preview](https://media.giphy.com/media/6IiYeeAygQunRWajve/giphy.gif)
