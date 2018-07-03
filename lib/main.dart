@@ -673,7 +673,7 @@ class Points extends StatelessWidget {
                 ),
               ),
               Text(
-                isPointsYouNeed ? 'YOU NEDD' : 'YOU HAVE',
+                isPointsYouNeed ? 'YOU NEED' : 'YOU HAVE',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: color,
@@ -689,15 +689,15 @@ class Points extends StatelessWidget {
 
 class SpringySliderController extends ChangeNotifier {
   final SpringDescription sliderSpring = SpringDescription(
-    mass: 1.0,
-    stiffness: 1000.0,
-    damping: 30.0,
+    mass: 3.0,
+    stiffness: 3000.0,
+    damping: 90.0,
   );
 
   final SpringDescription crestSpring = SpringDescription(
-    mass: 1.0,
-    stiffness: 5.0,
-    damping: 0.5,
+    mass: 1.5,
+    stiffness: 15.0,
+    damping: 1.5,
   );
 
   final TickerProvider _vsync;
